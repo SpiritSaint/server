@@ -5,7 +5,7 @@ const Helpers = require('./helpers/helpers');
 const Server = new WebSocket.Server({ port: process.env.SERVER_PORT });
 
 Server.on('connection', function connection(Client) {
-    Handlers.server.logHandler(Client, "Client is now connected...");
+    Handlers.server.logHandler("Client is now connected...");
     Client.on('message', Handlers.client.messageHandler);
     Client.on('close', Handlers.client.closeHandler);
     Helpers.sendMessage(Client, "Welcome to the server...");

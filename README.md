@@ -1,4 +1,4 @@
-# GPS Device Tracking Server
+# GPS Tracking Server
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Once cloned, install Node dependencies:
 npm install
 ```
 
-Finally run the server:
+Finally run the client:
 
 ```
 node app.js

@@ -8,7 +8,7 @@ module.exports = {
     /**
      * This handler will be executed when client sent an message
      */
-    messageHandler: function(message) {
+    messageHandler: function (message) {
         console.log(`Client sent a new message: ${message}`);
     },
 };

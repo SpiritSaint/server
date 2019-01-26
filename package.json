@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "A GPS Tracking Server\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001bA GPS Device Tracking Server",
+  "description": "A GPS Device Tracking Server",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/demency/server/issues"
   },
-  "homepage": "https://github.com/demency/server#readme"
+  "homepage": "https://github.com/demency/server#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "ws": "^6.1.3"
+  }
 }
